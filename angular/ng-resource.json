@@ -1,0 +1,20 @@
+{
+    "Ng Resource": {
+        "prefix": "ngresource",
+        "body": [
+            "var params = {};",
+            "",
+            "${MyResource}",
+            "\t.${action}(params)",
+            "\t.$$promise",
+            "\t.then(${successCallback}, ${errorCallback});",
+            "",
+            "function ${successCallback}(result) {",
+            "}",
+            "",
+            "function ${errorCallback}(error) {",
+            "}"
+        ],
+        "description": "$resource call sample"
+    }
+}

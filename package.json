@@ -1,0 +1,30 @@
+{
+  "name": "vscode-snippets",
+  "version": "1.0.0",
+  "description": "Vs code snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palaciofd/vscode-snippets.git"
+  },
+  "keywords": [
+    "vscode",
+    "snippets",
+    "angular"
+  ],
+  "author": "palaciofd@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palaciofd/vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/palaciofd/vscode-snippets#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-merge-json": "^0.6.0"
+  }
+}
